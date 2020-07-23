@@ -1,0 +1,69 @@
+.panel-heading:hover {
+    cursor:pointer;
+}
+.panel-heading {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+
+}
+
+.side-tab:hover {
+        cursor: pointer;
+    }
+    .panel.panel-default {
+        border: none;
+        box-shadow: none !important;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        
+    }
+    .panel-heading {
+        border: none;
+        background-color:#0a3b94;
+		color:white;
+    
+    }
+    .panel-body {
+        background-color: #ddd;
+		font-size:18px;
+    }
+ 
+
+
+
+  @media (max-width:1199px){
+    #logo{ 
+	      width:20%;	
+	}
+  }
+  @media (max-width:1024px){
+    #logo{ 
+	      width:20%;	
+	}
+  }
+  
+    @media (max-width:991px){
+    #logo{ 
+	      width:15%;
+		margin-left:1%;
+	}
+  }
+
+  @media (max-width:767px){
+    #logo{ 
+	      width:40%;	
+		  margin-left:1%;
+	}
+  }
+
+  @media (max-width:320px){
+    #logo{ 
+	      width:60%;	
+	}
+  }
+
+
